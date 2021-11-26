@@ -26,20 +26,21 @@ body {
 }
 
 .calc {
-  position: relative;
+  /* position: relative; */
   background-color: whitesmoke;
   text-align: center;
   min-width: 300px;
   padding: 15px 10px;
   box-shadow: 5px 5px 10px 5px #a5a8af;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-bottom: 100px;
 }
 
 #output {
   text-align: center;
   min-width: 250px;
-  padding: 15px 10px;
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  box-shadow: 5px 5px 10px 5px lightgrey;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   font-size: 2em;
@@ -63,9 +64,8 @@ button {
   outline: none;
   margin: 0 10px;
   font-size: 1.3em;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
-    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 5px 5px 5px #a5a8af, inset -5px -5px 15px #a5a8af,
+    5px 5px 15px #a5a8af, -5px -5px 15px #a5a8af;
 }
 
 button:hover {
